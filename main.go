@@ -11,7 +11,7 @@ import (
 )
 
 func init() {
-	//initializers.InitEnvironment()
+	initializers.InitEnvironment()
 	initializers.InitDatabase()
 	initializers.InitMigration()
 }
